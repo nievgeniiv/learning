@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.navbar-brand img {width: 50px}
+
+.navbar-nav li {
+    padding-right: 20px; /*расстояние между ссылками в шапке*/
+}
+
+.nav-link {
+    font-size: 1.1em !important; /*размер шрафта !important означает, что это значение важнее нежели которое поумолчанию*/
+}
+
+.custom-select {
+    width: 300px;
+}
+
+.dropdown {
+    margin-right: 100px;
+}
+
+.jumbotron {
+    padding: 1em;
+    border-radius: 0;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;   /*Отступ сверху*/
+}
+
+.marginBottom {
+    margin-bottom: 100px;
+}
+
+.avatar {
+    width: 50%;
+}
+
+.marginLeft {
+    margin-left: 2em;
+}
+
+.text-right {
+    margin-right: 20px;
+}
+
+.textInput-fluid {
+    width: 1000px;
+}
+
+.padding {
+    padding-bottom: 2em;
+}
+
+.alert {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.head {
+    margin-left: 20px;
+}
+
+.footerPadding {
+    padding: 0 0 50px 0;
+}
+
+.thCheckbox {
+    width: 40px;
+}
+.thStudent {
+    width: 60px;
+}
+
+.textTime {
+    width: 230px;
+}
+
+@media (max-width: 500px) {     /*Если максимальная ширина экрана больше 450px*/
+    .display-2{
+        font-size: 1.5em;
+    }
+}
+
+footer {
+    margin-top: 20px;
+    /*height: 50px;*/
+    background-color: #3f3f3f;
+    padding-top: -10px;
+    border-top: 4px solid silver;
+    color: white;                   /*Цвет для всего остального*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+<?php
+
+// параметры подключения к базе данных
+define('HOST', 'db_host');
+define('USER', 'db_user');
+define('PASSWD', 'db_password');
+define('DATABASE', 'db_name');
+
+// параметры для отправки e-mail
+define('fromLogin', 'login_from_send_email');
+define('fromPasswd', 'password_from_send_email');
+define('fromName', 'name_from_send_email');
+define('fromEmail', 'email_address_from_send_email');
+define('hostSMTP', 'hsot_SMTP_from_send_email');
+
+// параметры для тестов
+define('testLogin', 'student_login');
+define('testPasswd', 'student_password');
+define('testLoginAdmin', 'admin_login');
+define('testPasswdAdmin', 'admin_password');
+define('FUNCTIONS', __DIR__ . '/tests/functions.php');
+require_once __DIR__ . '/back/autoload.php';
+return [
+  // параметры для приемочных тестов
+  'URL' => 'url_web_application',
+  'BROWSER' => 'type_browser',
+  'WAIT' => 'delay',
+
+  // параметры для unit тестов
+  'DBHOST' => HOST,
+  'DBNAME' => DATABASE,
+  'DBPASSWD' => PASSWD,
+  'DBLOGIN' => USER
+];
+

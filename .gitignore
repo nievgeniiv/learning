@@ -1,0 +1,21 @@
+## Project config files
+/config.php
+
+##Project log files
+/var/*.log
+/var/*.txt
+
+##test files
+/vendor/
+/tests/_data/
+/tests/_output/
+/tests/_support/
+
+##Other files
+/www/files/2019-07-19-11-32-41-71.bmp
+/www/files/2019-07-19-11-32-41-71.bmp.txt
+/www/files/149751.jpg
+/www/files/Pismo_pedagogu3.odt
+/www/files/Новые заявки.docx
+.idea
+/project.local.conf
